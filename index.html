@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Itoh Lab</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  .rotating-text {
+    font-size: 2em; /* h1サイズ */
+    font-weight: bold;
+    animation: spin 4s linear infinite;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+  }
+  .construction-text {
+    position: absolute;
+    bottom: 20px;
+    font-size: 16px;
+    color: black;
+  }
+</style>
+</head>
+<body>
+<h1 class="rotating-text">Welcome to Itoh Lab.</h1>
+<div class="construction-text">This site is under construction.</div>
+
+<script>
+  // JavaScriptコードが必要な場合はここに追加しますが、この例ではCSSのみで実現可能です。
+</script>
+</body>
+</html>
