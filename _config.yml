@@ -17,7 +17,7 @@ title: 伊東研究室
 email:
 description: 日本大学 生産工学部 数理情報工学科 可視化・数値解析を中心に研究．
 github_username: NITItohLab
-minimal_mistakes_skin: sunrise
+minimal_mistakes_skin: mint
 search: true
 
 # Build settings
@@ -27,7 +27,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: jp
 
 include:
   - _pages
@@ -62,17 +62,8 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://researcher-web.nihon-u.ac.jp/search/detail?systemId=9d1884919af94fb0fadb241755ef4b7c&lang=ja"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+atom_feed:
+  hide: true
 
 defaults:
   # _posts
