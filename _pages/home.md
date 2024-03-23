@@ -11,7 +11,7 @@ header:
 excerpt: 可視化・数値解析研究室
 feature_row:
   - image_path: /assets/front/vr.jpg
-    alt: "VR-AR"
+    alt: "VRAR"
     title: "VR・ARに関する研究"
     excerpt: "近年はVR・ARを利用したアプリケーション開発にも力を入れています"
     url: "/information/"
@@ -21,7 +21,7 @@ feature_row:
     alt: "camp"
     title: "ゼミ合宿"
     excerpt: "毎年夏にゼミ合宿を開催しています"
-    url: "/docs/layouts/"
+    url: "/information/"
     btn_class: "btn--primary"
     btn_label: "年間スケジュール"
   - image_path: /assets/front/vrize.png
