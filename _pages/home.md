@@ -21,7 +21,7 @@ feature_row:
     alt: "camp"
     title: "ゼミ合宿"
     excerpt: "毎年ゼミ合宿を開催しています．ゼミ合宿以外のイベントもたくさんあります"
-    url: "/information/"
+    url: "/information/#年間スケジュール"
     btn_class: "btn--primary"
     btn_label: "年間スケジュール"
   - image_path: /assets/front/vrize.png
