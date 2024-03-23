@@ -80,6 +80,8 @@ defaults:
       comments: false
       share: true
       related: true
+      sidebar:
+        nav: "sidebar-menu"
   # _pages
   - scope:
       path: "_pages"

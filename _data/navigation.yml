@@ -8,3 +8,13 @@ main:
   - title: "記事一覧"
     url: /posts/
     
+sidebar-menu:
+  - title: "所在地"
+    children:
+      - title: 〒275-8575<br>千葉県習志野市泉町1丁目2−1<br>23号館 206室
+  - title: 共有情報
+    children:
+      - title: "共有情報一覧"
+        url: /shared-information/
+      - title: "研究業績一覧"
+        url: /achievement/

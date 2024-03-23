@@ -4,6 +4,8 @@ title: "業績一覧"
 author_profile: true
 classes: wide
 layout: archive
+sidebar:
+  nav: sidebar-menu
 ---
 
 | 公開論文                                                                                                                                                                                                                                                      |

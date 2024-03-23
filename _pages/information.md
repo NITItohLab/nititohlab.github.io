@@ -2,7 +2,22 @@
 permalink: /information/
 title: "研究室情報"
 classes: wide
+sidebar:
+  nav: "sidebar-menu"
 ---
+
+![](/assets/front/under/top2.png)
+ようこそ伊東研究室へ.  
+当研究室は，可視化・数値解析を中心に研究活動・ゼミナールを行っています．  
+近年はVR・ARを利用したアプリケーション開発にも力を入れています．  
+
+## 研究テーマ
+- 数値解析
+  ![](/assets/front/under/topnumerial.png)
+- 可視化・モデリング
+  ![](/assets/front/under/topcg.png)
+- VR・AR
+  ![](/assets/front/under/topvrar.png)
 
 ## 就職・進学先
 
