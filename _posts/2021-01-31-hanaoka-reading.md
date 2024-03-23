@@ -8,7 +8,9 @@ categories:
 tags:
   - 論文
 ---
+*— yuya hanaoka 2021/01/30*
 
+論文を読んだり書いたりした時によく使ったツール一覧．
 ## 超役立つやつ
 [**改行・空白・タブ削除ツール**](https://html-css-javascript.com/n-space-tab/)
 

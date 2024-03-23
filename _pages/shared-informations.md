@@ -22,6 +22,7 @@ sidebar:
 ## アーカイブ
 - [Covid-19による入構禁止期間中の研究室訪問について](http://133.43.44.80/itoh-lab/main/doku.php?id=%E3%81%9D%E3%81%AE%E4%BB%96:covid-19)(旧サイト)
 - [旧ウェブサイト](http://133.43.44.80/itoh-lab/main/doku.php?id=index.html)
+- [旧ウェブサイト―サイトマップ](http://133.43.44.80/itoh-lab/main/doku.php?id=share:paper-read-write-tools&do=index)
   
 ## その他
 - [タグ一覧](/tags/)
