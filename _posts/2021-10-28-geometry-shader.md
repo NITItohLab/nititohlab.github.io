@@ -2,6 +2,7 @@
 author: RenHIRAYAMA
 title: "ジオメトリシェーダを学ぶ(基礎中の基礎編)"
 date: 2021-10-28T15:34:30-04:00
+date_format: "%Y-%m-%d"
 categories:
   - blog
 tags:

@@ -14,7 +14,7 @@ feature_row:
     alt: "VRAR"
     title: "VR・ARに関する研究"
     excerpt: "近年はVR・ARを利用したアプリケーション開発にも力を入れています"
-    url: "/information/"
+    url: "/achievement/"
     btn_class: "btn--primary"
     btn_label: "過去の研究一覧"
   - image_path: /assets/front/camp.jpg

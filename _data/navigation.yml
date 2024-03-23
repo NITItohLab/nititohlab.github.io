@@ -1,6 +1,8 @@
 main:
   - title: "研究室情報"
     url: /information/
+  - title: "研究業績"
+    url: /achievement/
   - title: "メンバー"
     url: /member/
   - title: "記事一覧"
