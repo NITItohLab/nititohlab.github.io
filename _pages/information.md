@@ -1,6 +1,7 @@
 ---
 permalink: /information/
 title: "研究室情報"
+classes: wide
 ---
 
 ## 就職・進学先

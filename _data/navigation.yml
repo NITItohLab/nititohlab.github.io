@@ -1,5 +1,8 @@
 main:
-  - title: "記事一覧"
-    url: /posts/
   - title: "研究室情報"
     url: /information/
+  - title: "メンバー"
+    url: /member/
+  - title: "記事一覧"
+    url: /posts/
+    
