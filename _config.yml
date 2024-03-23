@@ -13,15 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: 伊東研究室
 email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+description: 日本大学 生産工学部 数理情報工学科 可視化・数値解析を中心に研究．
+github_username: NITItohLab
+minimal_mistakes_skin: sunrise
 search: true
 
 # Build settings
@@ -58,22 +54,13 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "伊東拓(教授)"
+  avatar : "/assets/images/bio-photo.png"
+  bio    : "博士 (工学)．プロフィール写真は担当教員の3Dフェイスデータ．"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://researcher-web.nihon-u.ac.jp/search/detail?systemId=9d1884919af94fb0fadb241755ef4b7c&lang=ja"
 
 footer:
   links:
