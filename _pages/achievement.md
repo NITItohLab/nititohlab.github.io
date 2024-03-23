@@ -5,7 +5,7 @@ author_profile: true
 classes: wide
 layout: archive
 sidebar:
-  nav: sidebar-menu
+  nav: "sidebar-menu"
 ---
 
 | 公開論文                                                                                                                                                                                                                                                      |

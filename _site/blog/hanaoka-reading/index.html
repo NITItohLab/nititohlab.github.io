@@ -1,0 +1,596 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="ja" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>論文を読んだり書いたりするときに使うツール - 伊東研究室</title>
+<meta name="description" content="超役立つやつ 改行・空白・タブ削除ツール">
+
+
+  <meta name="author" content="花岡佑哉">
+  
+  <meta property="article:author" content="花岡佑哉">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="伊東研究室">
+<meta property="og:title" content="論文を読んだり書いたりするときに使うツール">
+<meta property="og:url" content="http://localhost:4000/blog/hanaoka-reading/">
+
+
+  <meta property="og:description" content="超役立つやつ 改行・空白・タブ削除ツール">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-01-31T04:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/blog/hanaoka-reading/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          伊東研究室
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/information/">研究室情報</a>
+            </li><li class="masthead__menu-item">
+              <a href="/achievement/">研究業績</a>
+            </li><li class="masthead__menu-item">
+              <a href="/member/">メンバー</a>
+            </li><li class="masthead__menu-item">
+              <a href="/posts/">記事一覧</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">メニュー</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">花岡佑哉</a>
+    </h3>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">メニュー</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">所在地</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="">〒275-8575<br>千葉県習志野市泉町1丁目2−1<br>23号館 206室</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">共有情報</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/shared-information/">共有情報一覧</a></li>
+          
+            <li><a href="/achievement/">研究業績一覧</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="論文を読んだり書いたりするときに使うツール">
+    <meta itemprop="description" content="超役立つやつ改行・空白・タブ削除ツール">
+    <meta itemprop="datePublished" content="2021-01-31T04:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/blog/hanaoka-reading/" class="u-url" itemprop="url">論文を読んだり書いたりするときに使うツール
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-01-31T04:00:00+00:00">January 31, 2021</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h2 id="超役立つやつ">超役立つやつ</h2>
+<p><a href="https://html-css-javascript.com/n-space-tab/"><strong>改行・空白・タブ削除ツール</strong></a></p>
+
+<p><a href="http://neutron.appl-beam.ibaraki.ac.jp/ohoyamak/index.html"><strong>科学論文に役立つ英語</strong></a></p>
+
+<p><a href="https://readingmonkey.blog.fc2.com/blog-entry-650.html">(英語版）こう言い換えろ→論文に死んでも書いてはいけない言葉３０</a></p>
+
+<p><a href="https://www.jmtranslationservice.com/untitled-c1hwe">JM TRANSLATIONS -英語の論文で役立つ接続表現-</a></p>
+
+<p><a href="http://www.shiga-med.ac.jp/~koyama/eng/eng-beg-intro-obj.html">論文英語ナビ-目的の書き方-</a></p>
+
+<p><a href="http://blog.livedoor.jp/minetan345/archives/51940952.html">On the other hand の言い換え一覧</a></p>
+
+<p><a href="https://www.myu-inc.jp/awsp/AWSP_attention.html">論文を書く際に注意が必要な事項</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> タグ: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#%E8%AB%96%E6%96%87" class="page__taxonomy-item p-category" rel="tag">論文</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> カテゴリー: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#blog" class="page__taxonomy-item p-category" rel="tag">blog</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 更新日時:</strong> <time class="dt-published" datetime="2021-01-31T04:00:00+00:00">January 31, 2021</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">共有</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=%E8%AB%96%E6%96%87%E3%82%92%E8%AA%AD%E3%82%93%E3%81%A0%E3%82%8A%E6%9B%B8%E3%81%84%E3%81%9F%E3%82%8A%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AB%E4%BD%BF%E3%81%86%E3%83%84%E3%83%BC%E3%83%AB%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fhanaoka-reading%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="共有 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fhanaoka-reading%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="共有 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fhanaoka-reading%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="共有 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/blog/virtualize-realize/" class="pagination--pager" title="VIRTUALIZE REALIZE
+">前へ</a>
+    
+    
+      <a href="/blog/geometry-shader/" class="pagination--pager" title="ジオメトリシェーダを学ぶ(基礎中の基礎編)
+">次へ</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">関連記事</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/geometry-shader/" rel="permalink">ジオメトリシェーダを学ぶ(基礎中の基礎編)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2021-10-28T19:34:30+00:00">October 28, 2021</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">需要など知らぬ。ただの自己満足
+ここではUnityを使用したジオメトリシェーダについて解説していき、読んでくれる人がオリジナルのシェーダを記述できるまでにしていく。していきたい
+なお、今回のチュートリアルは、ジオメトリシェーダというよりは、シェーダ全体の解説なのであしからず。(見栄えがいいのは次回！
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/virtualize-realize/" rel="permalink">VIRTUALIZE REALIZE
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2020-04-22T04:00:00+00:00">April 22, 2020</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">本研究室の2020年度卒業生2名が、企画・技術開発を担当したDJイベント。 当時のコロナウイルスの影響をものともせず、VRChatの特設ワールドにて開催しました！！
+最新の映像転送技術を応用し、オンライン上でも参加者全員に「楽しさ」の共有ができるように奮闘しました。
+
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/shader-list/" rel="permalink">シェーダー関連記事まとめ
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2019-01-01T19:34:30+00:00">January 1, 2019</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">このページはシェーダに関する情報(GLSL, HLSL, ShaderLab..etc)をきっといつか誰かが見てくれることを信じて共有するためのものです。
+
+全般
+
+  シェーダのシェの字も知らない人はまずMVP行列について軽く学ぼう
+  シェーダで条件分岐を使わないテクニック
+  シェーダーだけで創る世界・レイ...</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="検索キーワードを入力してください..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong></strong></li>
+    
+
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 伊東研究室. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
