@@ -6,31 +6,31 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/front/main.jpeg
   actions:
-    - label: "研究室情報はこちら！"
+    - label: "研究室情報はこちら"
       url: "/information/"
 excerpt: 可視化・数値解析研究室
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/front/vr.jpg
+    alt: "VR-AR"
+    title: "VR・ARに関する研究"
+    excerpt: "近年はVR・ARを利用したアプリケーション開発にも力を入れています"
+    url: "/information/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    btn_label: "過去の研究一覧"
+  - image_path: /assets/front/camp.jpg
+    alt: "camp"
+    title: "ゼミ合宿"
+    excerpt: "毎年夏にゼミ合宿を開催しています"
     url: "/docs/layouts/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    btn_label: "年間スケジュール"
+  - image_path: /assets/front/vrize.png
+    alt: "VIRTUALIZE REALIZE"
+    title: "卒業生の活動"
+    excerpt: "本研究室の2020年度卒業生2名が、企画・技術開発を担当したDJイベント"
+    url: "https://vr-ize.tumblr.com/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "詳しくはこちら"      
 ---
 
 {% include feature_row %}
