@@ -1,11 +1,5 @@
 main:
   - title: "記事一覧"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
   - title: "研究室情報"
     url: /information/
