@@ -3,6 +3,8 @@ title: "所属メンバー"
 layout: archive
 permalink: /member/
 classes: wide
+sidebar:
+  nav: "sidebar-menu"
 ---
 
 ## 指導教員

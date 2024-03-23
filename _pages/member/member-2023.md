@@ -3,6 +3,8 @@ title: "2023年度のメンバー"
 layout: archive
 permalink: /member/2023/
 classes: wide
+sidebar:
+  nav: "sidebar-menu"
 ---
 
 ## 4年生・院生

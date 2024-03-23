@@ -3,6 +3,8 @@ title: "2022年度のメンバー"
 layout: archive
 permalink: /member/2022/
 classes: wide
+sidebar:
+  nav: "sidebar-menu"
 ---
 
 ## 4年生・院生

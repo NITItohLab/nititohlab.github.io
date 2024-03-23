@@ -1,4 +1,6 @@
 main:
+  - title: "新3年生向け特設ページ"
+    url: /special/
   - title: "研究室情報"
     url: /information/
   - title: "研究業績"
