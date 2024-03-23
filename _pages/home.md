@@ -20,7 +20,7 @@ feature_row:
   - image_path: /assets/front/camp.jpg
     alt: "camp"
     title: "ゼミ合宿"
-    excerpt: "毎年夏にゼミ合宿を開催しています"
+    excerpt: "毎年ゼミ合宿を開催しています．ゼミ合宿以外のイベントもたくさんあります"
     url: "/information/"
     btn_class: "btn--primary"
     btn_label: "年間スケジュール"
