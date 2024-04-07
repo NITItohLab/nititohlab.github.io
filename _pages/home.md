@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/front/main.jpeg
+  overlay_image: /assets/front/main2.png
   actions:
     - label: "研究室情報はこちら"
       url: "/information/"
