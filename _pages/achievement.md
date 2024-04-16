@@ -12,6 +12,7 @@ sidebar:
 - [論文](https://researchmap.jp/takuitoh/published_papers)
 - [学会発表](https://researchmap.jp/takuitoh/presentations)
 - [競争的資金](https://researchmap.jp/takuitoh/research_projects)
+- [著書](https://researchmap.jp/takuitoh/books_etc)
 - [受賞歴](https://researchmap.jp/takuitoh/awards)
 
 | 公開論文                                                                                                                                                                                                                                                      |
