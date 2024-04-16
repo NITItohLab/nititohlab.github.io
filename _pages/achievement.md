@@ -8,6 +8,12 @@ sidebar:
   nav: "sidebar-menu"
 ---
 
+## 最新の業績へのリンク
+- [論文](https://researchmap.jp/takuitoh/published_papers)
+- [学会発表](https://researchmap.jp/takuitoh/presentations)
+- [競争的資金](https://researchmap.jp/takuitoh/research_projects)
+- [受賞歴](https://researchmap.jp/takuitoh/awards)
+
 | 公開論文                                                                                                                                                                                                                                                      |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 2021.07.05: Daisuke Takada, Taku Itoh, Masahiro Kobayashi, Hiroaki Nakamura, "[A Mesh-Generation Scheme for the Large Helical Device Based on the Structure of Magnetic-Field Lines](http://www.jspf.or.jp/PFR/PFR_articles/pfr2021/pfr2021_16-2401086.html)" |
